@@ -15,25 +15,27 @@ body {
 nav {
   position: fixed;
   width: 100vw;
-  background-color: rgba(123, 120, 120, 0.6);
+  background-color: rgba(31, 9, 9, 0.6);
   height: 80px;
   text-align: center;
   font-family: "Spirax", sans-serif;
+  font-size: 35px;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 li {
   display: inline-block;
+  padding: 20px;
 }
 
 a {
   display: block;
-  padding: 10px;
   text-decoration: none;
-  font-size: 35px;
 }
 
 h1 {
@@ -41,12 +43,11 @@ h1 {
   font-size: 80px;
   color: #9b2d30;
   text-align: center;
-  padding-top: 100px;
 }
 
 p {
   font-family: "Poiret One", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .line1 {
@@ -80,6 +81,7 @@ p {
   width: 72%;
   margin-top: 20px;
   margin-left: 15%;
+  padding: 20px;
 }
 
 li a:link,
@@ -123,6 +125,7 @@ a:active {
     url(./images/hot.jpg);
   background-size: cover;
   background-position: center;
+  padding: 100px;
 }
 
 #juicy {
@@ -130,6 +133,7 @@ a:active {
     url(./images/juicy.jpg);
   background-size: cover;
   background-position: center;
+  padding: 100px;
 }
 
 #cosy {
@@ -137,6 +141,7 @@ a:active {
     url(./images/cosy.jpg);
   background-size: cover;
   background-position: center;
+  padding: 100px;
 }
 
 hr {
@@ -144,8 +149,13 @@ hr {
   height: 20px;
 }
 
+footer {
+  padding: 20px;
+}
+
 .copyright {
+  font-size: 18px;
   text-align: center;
-  font-size: 20px;
-  color:#555;
+  color: #000000;
+  background-color: #9b2d30b3;
 }

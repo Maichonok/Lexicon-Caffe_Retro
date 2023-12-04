@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(123, 120, 120, 0.6);
+  height: 80px;
+  text-align: center;
+  font-family: "Spirax", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+h1 {
+  font-family: "Spirax", sans-serif;
+  font-size: 80px;
+  color: #9b2d30;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  font-family: "Poiret One", sans-serif;
+  font-size: 25px;
+}
+
+.line1 {
+  color: white;
+  text-align: center;
+  background-color: #9b2d30b3;
+  font-size: 20px;
+  width: 72%;
+  padding: 1px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.line2 {
+  color: white;
+  text-align: center;
+  background-color: #9b2d30b3;
+  font-size: 20px;
+  width: 72%;
+  padding: 1px;
+  margin-top: 20px;
+  padding-left: 40px;
+  margin-left: 20%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 72%;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+li a:link,
+li a:visited {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+  display: block;
+}
+
+li a:hover,
+li a:active {
+  border-bottom: 2px solid #9b2d30b3;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 1px;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 80px 30px 30px 30px;
+}
+
+#hot {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/hot.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#juicy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/juicy.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#cosy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/cosy.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+hr {
+  background-color: #9b2d30b3;
+  height: 20px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 20px;
+  color:#555;
+}
